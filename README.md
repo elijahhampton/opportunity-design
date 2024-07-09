@@ -15,7 +15,8 @@ The Decentralized Labor Market System is a peer-to-peer platform enabling employ
 
 ## System Architecture
 
-![System Architecture Diagram](link-to-architecture-diagram.png)
+![architecture](https://github.com/elijahhampton/opportunity-design/assets/26151387/1d773de7-cd2c-4c01-ba11-f90a7b2b7f2f)
+
 
 The system consists of four main components:
 
