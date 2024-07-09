@@ -87,7 +87,13 @@ The system consists of four main components:
 ### P2P Protocol
 
 - Custom protocol built on libp2p
-- Message types: JOB_OFFER, SKILL_OFFER, APPLICATION, etc.
+  - Implements libp2p for peer discovery and communication
+  - Manages the Distributed Hash Table (DHT) for content addressing
+  - Implements custom gossip protocol for job/skill propagation
+  - Kademlia DHT for peer discovery
+  - GossipSub for efficient message propagation
+  - Direct messaging for peer-to-peer negotiations
+  - Message types: JOB_OFFER, SKILL_OFFER, APPLICATION, etc.
 
 ### Local Storage
 
